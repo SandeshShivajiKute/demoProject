@@ -1,0 +1,47 @@
+$text-color: #000000; 
+
+.rad-info-box{	
+	margin-bottom:16px;
+	box-shadow:2px 2px 2px 0 #CCCCCC;
+	padding:10px;
+	box-shadow:0 2px 2px 0 rgba(0,0,0,.26);
+	height: 90px;
+	//border-radius: 5px;
+	//background:$base-color !important;
+}
+
+.rad-info-box i{
+	display:block;
+	background-clip:padding-box;
+	margin-right:15px;
+	height:60px;
+	width:60px;
+	border-radius:100%;
+	line-height:60px;
+	text-align:center;
+	font-size:3em;
+	position:absolute;	
+}
+
+.rad-info-box .value,
+.rad-info-box .heading{
+	display:block;	
+	position:relative;
+	color: $text-color;
+	text-align:right;
+	z-index:10;
+	margin-left: 50px;
+	font-size:2em;
+}
+
+.rad-info-box .heading{
+	font-size:1em;
+	font-weight:200;
+	text-transform:uppercase;
+}
+
+.rad-info-box .value{
+	font-size:2em;
+	font-weight:400;
+	margin-top:5px;
+}

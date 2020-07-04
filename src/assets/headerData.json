@@ -1,0 +1,27 @@
+[
+    {
+      "hdr_data_lbl_01_bgcolour": "green",
+      "hdr_data_lbl_01_img": "fa fa-envelope",
+      "hdr_data_lbl_01_text": "Subjects",
+      "hdr_data_lbl_01_value":"452"
+    },
+    {
+        "hdr_data_lbl_01_bgcolour": "orange",
+        "hdr_data_lbl_01_img": "fa fa-filter",
+        "hdr_data_lbl_01_text": "Modern lab",
+        "hdr_data_lbl_01_value":"97"
+    },
+    {
+        "hdr_data_lbl_01_bgcolour": "pink",
+        "hdr_data_lbl_01_img": "fa fa-pencil",
+        "hdr_data_lbl_01_text": "Instructors",
+        "hdr_data_lbl_01_value":"300"
+    },
+    {
+        "hdr_data_lbl_01_bgcolour": "red",
+        "hdr_data_lbl_01_img": "fa fa-user",
+        "hdr_data_lbl_01_text": "Students",
+        "hdr_data_lbl_01_value":"7985"
+    }
+
+]

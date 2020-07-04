@@ -1,0 +1,14 @@
+<div class="col-md-12 bg-light" style="padding:50px;">
+    <p style="font-size:20px;">About Universh</p>
+        <div class="row">
+        <ng-container *ngFor="let obj of getHeaderData;let i=index;">
+            <div class="col-lg-3 col-xs-6">
+            <div class="rad-info-box" [style.background-color]="obj.hdr_data_lbl_01_bgcolour">
+            <i [ngClass]=" obj.hdr_data_lbl_01_img " style="float: left;font-size:4em;color:white"></i>
+            <span class="heading">{{ obj.hdr_data_lbl_01_text }}</span>
+            <span class="value"><span>{{ obj.hdr_data_lbl_01_value }}</span></span>
+            </div>
+            </div>
+        </ng-container>
+        </div>
+</div>
